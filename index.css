@@ -1,0 +1,59 @@
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.col-6 {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+input,
+.btn-success {
+    border-radius: 5px;
+}
+
+input {
+    text-align: center;
+    widows: 250px;
+    height: 40px;
+}
+
+#game_title,
+#p1_name,
+#p2_name {
+    letter-spacing: .07em;
+    color: #000000b8;
+    font-family: raleway;
+}
+
+.btn-success {
+    height: 50px;
+    width: 150px;
+    font-size: 1.2em;
+}
+
+.btn-success:hover {
+    cursor: pointer;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('./assets/github_logo.jpg')
+}
+
+#game_container {
+    background-color: #e8e6ffc7;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    max-width: unset !important;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
