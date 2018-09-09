@@ -9,15 +9,15 @@ $(function() {
         if (score1 && score2) {
             if (score1 > score2) {
                 console.log('Player 1 Wins');
-                document.querySelector('#game_title').textContent = player1 + ' wins with ' + score1.toFixed(2) + ' points!';
+                document.querySelector('#game_title').textContent = player1 + ' wins with ' + score1.toFixed(2) + ' commits!';
             } else if (score1 === score2) {
                 console.log('it is a tie');
-                document.querySelector('#game_title').textContent = player1 + ' and ' + player2 + ' both have the same score!';
+                document.querySelector('#game_title').textContent = player1 + ' and ' + player2 + ' both have the same amount of commits!';
             } else {
                 console.log('Player 2 Wins!');
                 document.querySelector("#user1").value = '';
                 document.querySelector("#user2").value = '';
-                document.querySelector('#game_title').textContent = player2 + ' wins with ' + score2.toFixed(2) + ' points!';
+                document.querySelector('#game_title').textContent = player2 + ' wins with ' + score2.toFixed(2) + ' commits!';
             }
         }
     }
